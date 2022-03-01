@@ -1,0 +1,19 @@
+###
+POST http://localhost:9000/api/users HTTP/1.1
+content-type: application/json
+
+{
+"email": "armandoboyzo@go-pharma.mx",
+"certificado": "yes",
+"name": "Carlos Armando Boyzo Oregón",
+"password" : "seer2022"
+}
+
+
+
+
+###
+GET http://localhost:9000/api/users HTTP/1.1
+
+###
+GET http://localhost:9000/api/users/621d9317d574a6a1d08dee51
